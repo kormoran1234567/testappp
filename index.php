@@ -2,7 +2,7 @@
 echo "Test!";
 echo "<br>";
 $pi = 4; $top = 4; $bot = 3; $minus = TRUE;
-$accuracy = 9000000;
+$accuracy = 10000000;
 
 for($i = 0; $i < $accuracy; $i++)
 {
@@ -10,7 +10,7 @@ for($i = 0; $i < $accuracy; $i++)
   $minus = ( $minus ? FALSE : TRUE);
   $bot += 2;
 }
-print "Pi ~=: " . $pi;
+print "Pi w przybliżeniu: " . $pi;
 $executionTime = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
 echo "<br>";
-print 'Wykonanie obliczeń zajęło $executionTime sekund';
+echo "Wykonanie obliczeń zajęło $executionTime sekund";
