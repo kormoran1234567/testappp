@@ -2,7 +2,7 @@
 echo "Test!";
 echo "<br>";
 $pi = 4; $top = 4; $bot = 3; $minus = TRUE;
-$accuracy = 5000000;
+$accuracy = 7000000;
 
 for($i = 0; $i < $accuracy; $i++)
 {
