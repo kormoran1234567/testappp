@@ -1,5 +1,6 @@
 <?php
-echo "Dupa!";
+echo "Test!";
+
 $pi = 4; $top = 4; $bot = 3; $minus = TRUE;
 $accuracy = 1000000;
 
