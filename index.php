@@ -11,3 +11,6 @@ for($i = 0; $i < $accuracy; $i++)
   $bot += 2;
 }
 print "Pi ~=: " . $pi;
+$executionTime = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
+echo "<br>";
+print $executionTime;
